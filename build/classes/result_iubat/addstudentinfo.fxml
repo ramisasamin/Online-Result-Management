@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="405.0" prefWidth="627.0" style="-fx-background-color: #ababab;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="result_iubat.AddStudentInfoController">
+   <children>
+      <Label layoutX="63.0" layoutY="53.0" prefHeight="40.0" prefWidth="301.0" text="Add Student Info" textFill="#532155">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font></Label>
+      <Label layoutX="63.0" layoutY="121.0" text="User Name">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Label>
+      <Label layoutX="63.0" layoutY="162.0" text="ID">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Label>
+      <TextField fx:id="as_un" layoutX="158.0" layoutY="118.0" />
+      <TextField fx:id="as_id" layoutX="159.0" layoutY="158.0" />
+      <Button fx:id="aa_button" layoutX="125.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #532155;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Button>
+      <Button fx:id="aa_back" layoutX="25.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #532155;" text="back" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Button>
+      <Label fx:id="aa_errormsg" layoutX="130.0" layoutY="317.0" prefHeight="17.0" prefWidth="172.0" textFill="RED" />
+      <Label layoutX="63.0" layoutY="238.0" text="Math.">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="as_math" layoutX="159.0" layoutY="233.0" />
+      <Label layoutX="63.0" layoutY="199.0" text="English">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="as_eng" layoutX="158.0" layoutY="196.0" />
+      <Label layoutX="63.0" layoutY="273.0" text="Social Science">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="as_ss" layoutX="158.0" layoutY="270.0" />
+   </children>
+</AnchorPane>
